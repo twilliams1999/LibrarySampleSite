@@ -1,6 +1,21 @@
-#selected-tab {
-    transition-property: left;
-    transition-duration: 2.5s;
+#selected-tab.page-index-0 {
+    transition: left 0.5s;
+    left: 0.1rem;
+}
+
+#selected-tab.page-index-1 {
+    transition: left 0.5s;
+    left: 7.85rem;
+}
+
+#selected-tab.page-index-2 {
+    transition: left 0.5s;
+    left: 15.6rem;
+}
+
+#selected-tab.page-index-3 {
+    transition: left 0.5s;
+    left: 23.49rem;
 }
 
 
