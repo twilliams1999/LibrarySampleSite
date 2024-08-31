@@ -27,64 +27,38 @@ export default function Home() {
           <CatalogSearch />
         </div>
       </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-        <div className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">
-          <h2 className="mb-3 text-5xl font-semibold">Contact Us</h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Find in-depth information about Next.js features and API.
-          </p>
+      <div id="upcoming-events" className="flex flex-col w-full h-[50rem]">
+        <div id="upcoming-events-header" className="flex w-full h-32 justify-center items-center">
+          <div className="mx-3 relative w-[24%] h-[1px] bg-[#898989]" />
+          <h2 className="relative text-5xl font-bold font-[Calibri] tracking-wider text-black">Upcoming Events</h2>
+          <div className="mx-3 relative w-[24%] h-[1px] bg-[#898989]" />
         </div>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-sm opacity-50">
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className="mb-3 text-2xl font-semibold">
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
+        <div id="upcoming-events-body" className="h-[30rem] w-full grid grid-cols-2 auto-rows-auto gap-[15rem]">
+          <div id="event-book-signing" className="ml-32 w-[44.5rem] border-[#0BB598] border-2 ">
+            <div id="book-signing-header" className="flex text-center mx-[2.4rem] text-black text-[22pt] font-[Habibi]">
+              <h3>Book Signing for Example Book featuring John Fakeauthor</h3>
+            </div>
+            <div id="book-signing-body" className="flex flex-row h-[15rem]">
+              <img src="/book-signing 1.png" className="ml-10 mt-5 h-[8rem]"/>
+              <p className="ml-10 mr-7 mt-4 leading-7 text-[22px] font-[Calibri] text-black"><b>December 7 @ 2:00pm - 3:00pm</b><br />John Fakeauthor, author of Example Book, will be signing copies of his new stunning, smash hit on Saturday, December 7 to celebrate the release. Stop by with your copy or pick one up to get signed by John himself!</p>
+            </div>
+            <div id="book-signing-details" className="flex w-full h-20 items-center justify-center">
+              <button className="relative md:left-16 bg-[#00939D] font-[RedHatText] tracking-[0.175em] w-32 h-10" >Details</button>
+            </div>
+          </div>
+          <div id="event-book-signing" className="mr-32 w-[44.5rem] border-[#0BB598] border-2">
+            <div id="book-signing-header" className="flex text-center mx-[2.4rem] text-black text-[22pt] font-[Habibi]">
+              <h3>Book Signing for Example Book featuring John Fakeauthor</h3>
+            </div>
+            <div id="book-signing-body" className="flex flex-row h-[15rem]">
+              <img src="/book-signing 1.png" className="ml-10 mt-5 h-[8rem]"/>
+              <p className="ml-10 mr-7 mt-4 leading-7 text-[22px] font-[Calibri] text-black"><b>December 7 @ 2:00pm - 3:00pm</b><br />John Fakeauthor, author of Example Book, will be signing copies of his new stunning, smash hit on Saturday, December 7 to celebrate the release. Stop by with your copy or pick one up to get signed by John himself!</p>
+            </div>
+            <div id="book-signing-details" className="flex w-full h-20 items-center justify-center">
+              <button className="relative md:left-16 bg-[#00939D] font-[RedHatText] tracking-[0.175em] w-32 h-10" >Details</button>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );

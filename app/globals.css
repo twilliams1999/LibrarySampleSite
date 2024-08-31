@@ -30,5 +30,17 @@ body {
 @font-face {
   font-family: 'Jaldi';
   src: url('../fonts/Jaldi-Regular.woff') format('woff'),
-       url(../fonts/Jaldi-Regular.ttf) format('truetype');
+       url('../fonts/Jaldi-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Habibi';
+  src: url('../fonts/Habibi-Regular.woff') format('woff'),
+       url('../fonts/Habibi-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RedHatText';
+  src: url('../fonts/RedHatText-Bold.woff') format('woff'),
+       url('../fonts/RedHatText-Bold.ttf') format('truetype');
 }
