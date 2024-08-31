@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import NavigationBar from "@/components/NavigationBar";
 
 export default function Home() {
   return (
@@ -15,7 +17,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bottom-0 bg-center place-items-center w-full h-[21rem] lg:static" style={{backgroundImage:"url(/hero.svg)",backgroundSize:"95rem"}}>
+      <div id="hero" className="flex bottom-0 bg-no-repeat bg-[center_top_50%] w-[105%] h-[28rem] lg:static justify-items-center items-start" style={{backgroundImage:"url(/hero.svg)",/*backgroundSize:"105%"*/}}>
+        <div id="navigationBackground" className="absolute z-[2000] bg-[rgba(203,203,203,0.51)] w-[103%] h-16 pointer-events-none" />
+        <div id= "navigationBarContainer" className="relative z-[10] w-full flex justify-center">
+          <NavigationBar />
+        </div>
       </div>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">

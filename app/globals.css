@@ -26,3 +26,9 @@ body {
     text-wrap: balance;
   }
 }
+
+@font-face {
+  font-family: 'Jaldi';
+  src: url('../fonts/Jaldi-Regular.woff') format('woff'),
+       url(../fonts/Jaldi-Regular.ttf) format('truetype');
+}

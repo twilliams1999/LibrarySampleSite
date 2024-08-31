@@ -1,0 +1,16 @@
+#selected-tab {
+    transition-property: left;
+    transition-duration: 2.5s;
+}
+
+
+
+@keyframes movenavigationpage {
+    from {
+      transform: translateX(0);
+    }
+  
+    to {
+      transform: translateX(7.75rem);
+    }
+  }
