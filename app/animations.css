@@ -1,21 +1,52 @@
-#selected-tab.page-index-0 {
-    transition: left 0.5s;
-    left: 0.1rem;
+@media (min-width: 768px) {
+     
+    #selected-tab.page-index-0 {
+        transition: left 0.5s;
+        /*left: 0.1rem;*/
+        left: 0.15rem;
+    }
+
+    #selected-tab.page-index-1 {
+        transition: left 0.5s;
+        left: 8rem;
+    }
+    
+    #selected-tab.page-index-2 {
+        transition: left 0.5s;
+        left: 15.9rem;
+    }
+    
+    #selected-tab.page-index-3 {
+        transition: left 0.5s;
+        left: 23.75rem;
+    }
 }
 
-#selected-tab.page-index-1 {
-    transition: left 0.5s;
-    left: 7.85rem;
+@media (max-width: 768px) {
+
+    #selected-tab.page-index-0 {
+        transition: left 0.5s;
+        left: 0.1rem;
+    }
+
+    #selected-tab.page-index-1 {
+        transition: left 0.5s;
+        left: 5.1rem;
+    }
+
+    #selected-tab.page-index-2 {
+        transition: left 0.5s;
+        left: 10.1rem;
+    }
+
+    #selected-tab.page-index-3 {
+        transition: left 0.5s;
+        left: 15.1rem;
+    }
 }
 
-#selected-tab.page-index-2 {
-    transition: left 0.5s;
-    left: 15.6rem;
-}
-
-#selected-tab.page-index-3 {
-    transition: left 0.5s;
-    left: 23.49rem;
+#search-catalog-button:active {
+    background-color: rgb(170 199 6 / var(--tw-bg-opacity))
 }
 
 
