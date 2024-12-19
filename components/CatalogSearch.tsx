@@ -1,4 +1,6 @@
-export default function CatalogSearch() {
+import { searchCatalogue } from '@/lib/data';
+
+export default async function CatalogSearch() {
     return(
         <div className="relative flex w-[25rem] md:w-[50rem] h-12 justify-center rounded">
             <input type="text" className="px-3 w-[90%] h-full rounded-l-xl font-[Jaldi] text-base text-black" placeholder="Search Our Library Catalog" />
