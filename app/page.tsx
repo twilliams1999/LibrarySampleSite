@@ -42,7 +42,7 @@ export default async function Home() {
             datestring="December 7 @ 2:00pm - 3:00pm"
             description="John Fakeauthor, author of Example Book, will be signing copies of his new stunning, smash hit on Saturday, December 7 to celebrate the release. Stop by with your copy or pick one up to get signed by John himself!" 
           />
-          <UpcomingEventCard
+          <UpcomingEventCard isLeft={false}
             eventid="event-book-signing-2"
             title="Book Signing for Example Book featuring John Fakeauthor"
             image="/book-signing 1.png"
