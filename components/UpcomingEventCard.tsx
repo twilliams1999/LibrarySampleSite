@@ -2,7 +2,17 @@
 
 import Image from "next/image"
 
-export default function UpcomingEventCard({isLeft, eventid, title, image, alt, datestring, description}) {
+interface UpcomingEventCardProps {
+    isLeft: boolean;
+    eventid: string;
+    title: string;
+    image: string;
+    alt: string;
+    datestring: string;
+    description: string;
+}
+
+export default function UpcomingEventCard({isLeft, eventid, title, image, alt, datestring, description}: UpcomingEventCardProps) {
     return (
         <div id={eventid} className={`${isLeft ? "ml-8 justify-self-start" : "mr-8 justify-self-end"} text-center flex flex-col w-[45vw] border-[#0BB598] border-2`}>
             <div className="flex text-center mx-[2.4rem] text-black text-[22pt] font-[Habibi]">
