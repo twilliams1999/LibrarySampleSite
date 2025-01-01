@@ -3,7 +3,7 @@ import NavigationBar from "@/components/NavigationBar";
 import CatalogSearch from "@/components/CatalogSearch";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main className="flex min-h-screen w-full overflow-hidden flex-col items-center">
       <div className="items-center justify-between font-mono text-sm lg:flex">
