@@ -18,8 +18,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div id="hero" className="flex flex-col bottom-0 bg-cover bg-no-repeat bg-[center_top_50%] w-[105%] h-[28rem] lg:static justify-items-center items-start" style={{backgroundImage:"url(/hero.svg)"}}>
-        <div id="navigation-background" className="absolute z-[2000] bg-[rgba(203,203,203,0.51)] w-[103%] h-16 pointer-events-none" />
+      <div id="hero" className="flex flex-col bottom-0 bg-cover bg-no-repeat bg-[center_top_50%] w-full h-[28rem] lg:static justify-items-center items-start" style={{backgroundImage:"url(/hero.svg)"}}>
+        <div id="navigation-background" className="absolute z-[2000] bg-[rgba(203,203,203,0.51)] w-full h-16 pointer-events-none" />
         <div id= "navigation-bar-container" className="relative z-[10] w-full flex justify-center">
           <NavigationBar />
         </div>
