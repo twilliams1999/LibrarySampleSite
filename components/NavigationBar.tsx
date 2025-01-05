@@ -1,10 +1,11 @@
-'use client'
-
 import React, {useState, useRef} from 'react';
-import ReactDOM from 'react';
 import '../app/animations.css';
 
-export default function NavigationBar() {
+interface NavigationBarProps {
+    updatePage: (pageIndex: number) => void;
+}
+
+export default function NavigationBar({updatePage} : NavigationBarProps) {
     const [pageIndex, setPageIndex] = useState(0);
     const selectedTabRef = useRef<HTMLDivElement>(null);
 
@@ -16,6 +17,9 @@ export default function NavigationBar() {
 
             selectedTabRef.current.classList.toggle("page-index-" + newPageIndex);
         }
+
+        //setCurrentPage(newPageIndex);
+        updatePage(newPageIndex);
     }
 
     return (
