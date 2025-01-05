@@ -2,10 +2,7 @@
 
 import { serverConnect } from "../actions/serverConnect";
 
-interface CatalogSearchBarProps {
-    rawData: string;
-}
-export default function CatalogSearchBar({rawData}: CatalogSearchBarProps) {
+export default function CatalogSearchBar() {
 
     return(
         <div className="relative flex w-[25rem] md:w-[50rem] h-12 justify-center rounded">
