@@ -1,7 +1,7 @@
 import Image from "next/image";
 import NavigationBar from "@/components/NavigationBar";
-import CatalogSearch from "@/components/CatalogSearch";
 import UpcomingEventCard from "@/components/UpcomingEventCard";
+import CatalogSearchBar from "@/components/CatalogSearchBar";
 
 export default async function Home() {
   return (
@@ -24,7 +24,7 @@ export default async function Home() {
           <NavigationBar />
         </div>
         <div id="catalog-search-container" className="relative z-[10] w-full flex justify-center top-6">
-          <CatalogSearch />
+          <CatalogSearchBar />
         </div>
       </div>
       <div id="upcoming-events" className="flex flex-col w-full h-[50rem]">
